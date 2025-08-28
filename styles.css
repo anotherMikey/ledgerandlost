@@ -50,7 +50,7 @@ h3 {
     "footer  footer";
 
   
-  grid-template-columns: 4em 12fr 4fr; 
+  grid-template-columns: 9em 12fr 4fr; 
   grid-template-rows: auto auto auto auto;
   
 
