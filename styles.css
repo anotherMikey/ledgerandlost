@@ -1,0 +1,129 @@
+p {
+    font-family: 'Aubrey';
+    font-size: 25;
+    margin: 5px;
+}
+small {
+    font-family: 'Aubrey';
+    margin: 5px;
+}
+
+h1 {
+    font-family: 'MedievalSharp';
+}
+h2 {
+    font-family: 'MedievalSharp';
+}
+h3 {
+    font-family: 'MedievalSharp';
+}
+
+.love-light-regular {
+  font-family: "Love Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.unifrakturmaguntia-regular {
+  font-family: "UnifrakturMaguntia", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.aubrey-regular {
+  font-family: "Aubrey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.medievalsharp-regular {
+  font-family: "MedievalSharp", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.grid-container {
+  display: grid;
+
+  
+  grid-template-areas:
+    "header  header"
+    "sidebar main"
+    "footer  footer";
+
+  
+  grid-template-columns: 16.8em 7fr 4fr; 
+  grid-template-rows: auto auto auto auto;
+  
+
+  gap: 10px; 
+  padding: 10px;
+}
+
+.header  { 
+    grid-area: header; 
+    grid-column: 1 / 3;
+    background: #ece0c1; 
+    top: 0px;
+}
+.sidebar { 
+    grid-area: sidebar; 
+    background: #ddcda6;
+    position: sticky;
+    grid-row: 2/3;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+
+}
+.main    { 
+    grid-area: main; 
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background: #ece0c1; 
+}
+.footer  { 
+    grid-area: footer; 
+    background: #ece0c1; 
+}
+.right-side {
+    grid-column: 3 / 4;
+    grid-row-start: 2;
+}
+.right-head {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+
+#deadlock-example {
+    clip-path: circle(39%);
+}
+#image-title {
+    color:#ddcda6;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Pirata+One|Bilbo+Swash+Caps&display=swap');
+/*
+@font-face {
+  font-family: Morris;
+  src: url(https://cdn.statically.io/gh/EmmesCodes/Tipografias/dae9f5bb/MorrisInitials.ttf);
+  }
+*/
+  /*
+:root {
+  --fontSize: calc((1vw + 1vh) * .75);
+}
+*/
+/*
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*/
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1546484396-fb3fc6f95f98);
+  background-size: cover;
+}
