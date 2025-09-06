@@ -1,0 +1,19 @@
+.header  { 
+    grid-area: header; 
+    background: #ece0c1; 
+    top: 0px;
+}
+.sidebar { 
+    grid-area: sidebar; 
+    background: #ddcda6;
+    
+    
+}
+.main    { 
+    grid-area: main; 
+    background: #ece0c1; 
+}
+.footer  { 
+    grid-area: footer; 
+    background: #ece0c1; 
+}
